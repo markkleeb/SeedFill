@@ -15,24 +15,27 @@
 		5108A3D814F414F9004573EA /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5108A3D714F414F9004573EA /* poOpenGLView.mm */; };
 		5108A3DC14F414F9004573EA /* SeedFillApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5108A3DB14F414F9004573EA /* SeedFillApp.cpp */; };
 		5108A3DE14F414F9004573EA /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5108A3DD14F414F9004573EA /* AppConfig.cpp */; };
+		5108A3EB14F416D0004573EA /* smImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5108A3EA14F416D0004573EA /* smImage.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5108A3C314F414F9004573EA /* SeedFill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeedFill.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5108A3C814F414F9004573EA /* Debug.xcconfig */ = {isa = PBXFileReference; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
-		5108A3C914F414F9004573EA /* Release.xcconfig */ = {isa = PBXFileReference; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
-		5108A3CA14F414F9004573EA /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		5108A3C814F414F9004573EA /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		5108A3C914F414F9004573EA /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		5108A3CA14F414F9004573EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
 		5108A3CB14F414F9004573EA /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
 		5108A3CD14F414F9004573EA /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
 		5108A3CF14F414F9004573EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
 		5108A3D114F414F9004573EA /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
-		5108A3D314F414F9004573EA /* main.plist */ = {isa = PBXFileReference; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		5108A3D314F414F9004573EA /* main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
 		5108A3D414F414F9004573EA /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
-		5108A3D614F414F9004573EA /* poOpenGLView.h */ = {isa = PBXFileReference; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		5108A3D614F414F9004573EA /* poOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
 		5108A3D714F414F9004573EA /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
-		5108A3DA14F414F9004573EA /* SeedFillApp.h */ = {isa = PBXFileReference; path = SeedFillApp.h; sourceTree = "<group>"; };
+		5108A3DA14F414F9004573EA /* SeedFillApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeedFillApp.h; sourceTree = "<group>"; };
 		5108A3DB14F414F9004573EA /* SeedFillApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SeedFillApp.cpp; sourceTree = "<group>"; };
 		5108A3DD14F414F9004573EA /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+		5108A3E814F416C7004573EA /* smImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = smImage.h; path = "Spatial Media/examples/spatialMedia02b/spatialMedia02/smImage.h"; sourceTree = DEVELOPER_DIR; };
+		5108A3EA14F416D0004573EA /* smImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = smImage.cpp; path = "Spatial Media/examples/spatialMedia02b/spatialMedia02/smImage.cpp"; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 		5108A3D914F414F9004573EA /* application */ = {
 			isa = PBXGroup;
 			children = (
+				5108A3E814F416C7004573EA /* smImage.h */,
+				5108A3EA14F416D0004573EA /* smImage.cpp */,
 				5108A3DA14F414F9004573EA /* SeedFillApp.h */,
 				5108A3DB14F414F9004573EA /* SeedFillApp.cpp */,
 				5108A3DD14F414F9004573EA /* AppConfig.cpp */,
@@ -168,6 +173,7 @@
 				5108A3D814F414F9004573EA /* poOpenGLView.mm in Sources */,
 				5108A3DC14F414F9004573EA /* SeedFillApp.cpp in Sources */,
 				5108A3DE14F414F9004573EA /* AppConfig.cpp in Sources */,
+				5108A3EB14F416D0004573EA /* smImage.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +225,7 @@
 				5108A3E314F414F9004573EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
